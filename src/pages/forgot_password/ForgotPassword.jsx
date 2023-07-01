@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { forgotPasswordApi } from '../../apis/Api';
+import { toast } from 'react-toastify';
 
 const ForgotPassword = () => {
     const[email, setEmail] = useState("");
